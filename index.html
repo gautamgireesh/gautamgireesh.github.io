@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <title>Gautam Gireesh</title>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ef9bff8647.js" crossorigin="anonymous"></script>
+        <script>
+            var i = 0;
+            var txt = 'Software Developer | Undergraduate Computer Science @UofT';
+            var speed = 60;
+
+            window.onload = function typeWriter() {
+                if (i < txt.length) {
+                    document.getElementById("info").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                }
+            }
+        </script>
+        
+    </head>
+    <body>
+        <div class="banner-text">
+            <h2>Gautam Gireesh</h2>
+            <h3 id="info"><h3>
+            <!-- <p class="header-sub-title blink">|</p> -->
+            <main class="center-icons">
+                <a class="file" href="./FinalGautamGireesh.pdf" target="_blank"><i style="color: white" class="far fa-file fa-2x"></i></a>
+                <a class="github"href="https://github.com/gautamgireesh" target="_blank"><i style="color: white" class="fab fa-github fa-2x"></i></a>
+                <a class="envelope"href="mailto:gautam.gireesh@mail.utoronto.ca" target="_blank"><i style="color: white" class="far fa-envelope fa-2x"></i></a>
+                <a class="linkedin"href="https://www.linkedin.com/in/gautamgireesh/" target="_blank"><i style="color: white" class="fab fa-linkedin-in fa-2x"></i></a>
+            <main>
+        </div>
+        <div class="animation-area">
+            <ul class="box-area">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <!-- <span id="siteseal">
+            <script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=Ep78BHSqI7dI1XIVee9YfBnFJdyBZKuS4Re3aN7KkYGG1pYK79ewolNyVQkQ"></script>
+        </span> -->
+        </script>
+    </body>
+</html>
